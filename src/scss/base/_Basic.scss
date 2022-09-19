@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Open sans', sans-serif;
+}
+
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2,h3,h4,h5,h6,p,input,span{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: pink;
+    border-radius: 100vw;
+}
